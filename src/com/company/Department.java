@@ -18,6 +18,6 @@ public class Department {
             System.out.println("Численность не может быть отрицательной");
             return 0;
         }
-        return size += num;
+        return size = num;
     }
 }
